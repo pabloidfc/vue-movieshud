@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.ts', './src/**/*.vue'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        onest: ['Onest', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

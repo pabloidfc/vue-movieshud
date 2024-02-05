@@ -1,9 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MainHeader from '../components/MainHeader.vue';
+</script>
 
 <template>
-  <div>
-    <h1 class="text-2xl"></h1>
-  </div>
+  <MainHeader />
 </template>
 
 <style scoped></style>
